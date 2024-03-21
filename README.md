@@ -19,7 +19,7 @@ Before integrating this button component into your project, ensure you have a Re
 To use this button component, first, clone this repository into your project directory. Then, import the button component into your React component file as follows:
 
 ```jsx
-import { Button } from 'path/to/Button';
+import { Button } from '@aaarslan/button';
 ```
 
 ## Usage

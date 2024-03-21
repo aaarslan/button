@@ -26,7 +26,7 @@ export default defineConfig({
     rollupOptions: {
       external: [
         "react/jsx-runtime",
-        "prop-types",
+
         ...Object.keys(peerDependencies),
       ],
       output: {
@@ -34,7 +34,6 @@ export default defineConfig({
           react: "React",
           "react/jsx-runtime": "jsxRuntime",
           "react-dom": "ReactDOM",
-          "prop-types": "PropTypes",
         },
       },
       input: "lib/main.tsx",
